@@ -1,0 +1,123 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/google-home-page.png);
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+section header{
+    position: absolute;
+    top: 0%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    width: 100%;
+}
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+section header ul li #btn{
+    background-color: blue;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+section .main{
+    display: flex;
+    width: 580px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .main .searchbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+section .main .searchbox .search{
+    width: 60%;
+    margin-left: 100px;
+    padding: 10px;
+    border: 2px solid lawngreen;
+    border-radius: 25px;
+    outline: none;
+    font-size: 15px;
+}
+section .main .searchbox .icons{
+    position: absolute;
+    top: 10px;
+    width: 60%;
+    display: flex;
+    margin-left: 110px;
+    justify-content: space-between;
+    align-items: center;
+}
+section .main .butn{
+    margin-top: 20px;
+}
+section .main .butn button{
+    margin: 0px 5px;
+    padding: 12px 20px;
+    font-size: 15px;
+    color: blueviolet;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+section .main .lange{
+    padding: 12px 20px;
+}
+section .main .lange button{
+    margin: 0px 5px;
+    padding: 12px 20px;
+    font-size: 15px;
+    color: blueviolet;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+section .main .lange button a{
+    text-decoration: none;
+}
+section .footer{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+}
+section .footer .row{
+    display: flex;
+    justify-content: space-between;
+}
+section .footer .row ul{
+    display: flex;
+}
+section .footer .row ul li{
+    list-style: none;
+}
+section .footer .row ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: lightgray;
+    margin-right: 20px;
+}
